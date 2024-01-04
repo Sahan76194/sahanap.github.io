@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b2cb0da955.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <a href="#" class="logo">Hi Recruiters</a>
+        <div class="cross"><i class="fa-solid fa-bars" onclick="openmenu()"></i></div>
+        <div class="home-sci">
+            <a href="https://www.linkedin.com/in/sahana-p-86a72424a"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="mailto:sahanap205@gmail.com"><i class='bx bxs-envelope'></i></a>
+            <a href="tel:7619434570"><i class='bx bxs-phone'></i></a>
+        </div>
+        <nav class="navbar">
+            <ul id="sidemenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contacts">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm Sahana P</h1>
+            <h3>Business Development Ass0ciates</h3>
+            <p>My skill set extends beyond sales, as I possess strong analytical skills combined with a strategic mindset. 
+                This allows me to conduct accurate market analysis and make effective decisions that contribute to the overall success of the business.  
+                I have a demonstrated ability to lead cross-functional teams, negotiate contracts, and close deals with a customer-centric approach. 
+                Proficient in the utilization of CRM tools,  I effectively manage leads, track performance, and generate insightful reports for informed decision-making</p>
+            <div class="btn-box">
+                <a href="7619434570">Let's Talk</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h1 class="sub-tittle">About </h1>
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Sahana.jpg">
+                </div>
+                <div class="about-col-2"> 
+                    <p>As a highly motivated and results-oriented Business Development Associate, 
+                        I bring a proven track record of surpassing targets and driving substantial business growth. 
+                        My experience at Byju's, Think and Learn Private Limited, in Bangalore, 
+                        has honed my skills in building and maintaining strong client relationships. 
+                        I specialize in identifying unique client needs and delivering tailored solutions, 
+                        leveraging my proficiency in market research, data analysis, and the development of effective sales strategies.
+                        <br>
+                        <br></br>
+                        Education-wise, I hold a Bachelor's degree in Engineering from East West College of Engineering, 
+                        Bangalore, showcasing my commitment to academic excellence. Additionally, my internships, particularly in Embedded System Design at BEL, 
+                        have provided me with practical experience and a solid foundation in the field.
+                     </p>
+                    <div class="tab-tittle">
+                        <p class="tab-links active-link " onclick="opentab('skill')">Skills</p>
+                        <p class="tab-links "onclick="opentab('education')">Education</p>
+                        <p class="tab-links "onclick="opentab('language and hobbies') ">Languages & Hobbies</p>
+                        <p class="tab-links "onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skill" >
+                                    <ul>
+                                        <li><span> :</span> <br>HTLM ,<br> CSS , <br>Javascript </li>
+                                        <li><span>Programming Skills :</span> <br>Core Java,<br>MySQL<br>HTLM ,<br> CSS <br>Basics Of Javascript</li>
+                                        
+                                    </ul>
+                    </div>
+                    <div class="tab-contents"id="education">
+                                    <ul>
+                                        <li><span>SSLC (10th ) :</span> <br>School Name :  Shree Ram Public School, Bangalore <br> CBSE<br>Passed Out:2016 </li>
+                                        <li><span>PUC :</span> <br>College Name : St. Theresa Pre University College, Bangalore<br>State Board <br>Passed Out:2018 </li>
+                                        <li><span>Bachulare of engineering :</span> <br>College Name : East West College Of Engineering  <br>Branch :Electronics and Communication Engineering <br> Visvesvaraya Technological University<br>Passed Out:2022 </li>
+                                    </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                                    <ul>
+                                        <li><span>Company Name: Byju's (Think and learn Pvt ltd)</span> <br> Role :Business Development Associate<br> Duration: 6 months </li>
+                                        <li><span>Company Name: Infinity learn (Wizklub)</span> <br>Role :Customer Experience and Sales Associate <br> Duration: 6 months completed Still working</li>
+                                    </ul>
+                    </div>
+                    <div class="tab-contents" id="language and hobbies">
+                        <ul>
+                            <li><span>Language :</span> <br>Kannada ,<br> English , <br>Hindi  </li>
+                            <li><span>Hobbies :</span> <br>Making new Dishes , <br>Pop Dancer ,<br>Watching Motivational Videos </li>
+                        </ul>
+        </div>
+                </div>
+            </div><!-- ... (your existing about section) ... -->
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section id="contacts" class="contacts">
+            <h1 class="sub-tittle">Contacts </h1>
+            <div class="container">
+                         <div class="row2">
+                               <div class="contact-left">
+                                    <p><i class='bx bxs-phone'></i> 7619434570</p>
+                                    <p><i class='bx bxs-envelope' ></i>  sahanap205@gmail.com</p>
+                                    <p><a href="https://www.linkedin.com/in/sahana-p-86a72424a"><i class='bx bxl-linkedin-square' ></i> Linkedin </a></p>
+                                    <a href="Sahana P Rs.pdf" download class="btn ">Download CV</a>
+                                </div>
+                                <div class="contact-right">
+                                        <form name="form">
+                                            <input name="Name" type="text"  placeholder="Your Name" required>
+                                            <input name="Email" type="email"  placeholder="Your Email" required>
+                                            <textarea name="Message" rows="6"  placeholder="Your Message"></textarea>
+                                            <button type="submit" name="submit" id="submit" class="btn">Submit </button>  
+                                            
+                                        </form>
+                                       
+                                        
+                                </div>
+                            
+                        </div>
+                        <div><span id="msg"> </span>
+                            <script src="main one.js"></script></div>
+                          
+            </div>
+        
+    </section>
+    
+    <script>    var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+         sidemenu.style.right = "0";
+        } 
+        function closemenu(){
+         sidemenu.style.right = "-200px";
+        } </script>
+    <!-- Copyright Section -->
+    <div class="copyright">
+        <p>Thank you for visiting my site. Please click the download button to get the resume, and fill the form with your message to get in touch with you.</p>
+    </div>
+</body>
+</html>
